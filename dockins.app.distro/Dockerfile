@@ -15,7 +15,7 @@ RUN wget -O apache-tomcat-7.0.63.tar.gz http://apache.mesi.com.ar/tomcat/tomcat-
 RUN tar -zxvf apache-tomcat-7.0.63.tar.gz
 
 # Add applications to the webapps directory
-ADD target/dockins.tomcat7-apps/*.war apache-tomcat-7.0.63/webapps
+ADD target/dockins.tomcat7-apps/*.war /apache-tomcat-7.0.63/webapps/
 
 # Remove the bundle
 RUN rm apache-tomcat-7.0.63.tar.gz
