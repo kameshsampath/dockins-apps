@@ -12,13 +12,6 @@
 		<module>dockins.app.distro</module>
 	</modules>
 
-	<developers>
-		<developer>
-			<id>kameshs</id>
-			<email>kamesh.sampath@hotmail.com</email>
-		</developer>
-	</developers>
-
 	<dependencyManagement>
 		<dependencies>
 			<dependency>
