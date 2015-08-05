@@ -9,7 +9,7 @@
 	<includeBaseDirectory>false</includeBaseDirectory>	
 	<moduleSets>
 		<moduleSet>
-
+ 			
 			<!-- Enable access to all projects in the current multimodule build! -->
 			<useAllReactorProjects>true</useAllReactorProjects>
 
