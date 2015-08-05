@@ -6,7 +6,7 @@
 	<formats>
 		<format>dir</format>
 	</formats>
-	<includeBaseDirectory>false</includeBaseDirectory>
+	<includeBaseDirectory>false</includeBaseDirectory>	
 	<moduleSets>
 		<moduleSet>
 
@@ -18,7 +18,10 @@
 				<include>org.workspace7.dockins:*</include>
 			</includes>
 			<binaries>
-				<outputDirectory>modules</outputDirectory>
+				<includeDependencies>false</includeDependencies>
+				<includes>
+					<include>org.workspace7.dockins:*:war:*</include>
+				</includes>
 				<unpack>false</unpack>
 			</binaries>
 		</moduleSet>

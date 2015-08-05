@@ -24,6 +24,7 @@
 	</dependencyManagement>
 
 	<build>
+		<finalName>dockins.tomcat7</finalName>
 		<pluginManagement>
 			<plugins>
 				<plugin>
