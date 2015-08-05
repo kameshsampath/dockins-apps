@@ -9,6 +9,7 @@
 	<description>The demo project umbrella for all Dockins Applications</description>
 	<modules>
 		<module>dockins.demoapp</module>
+		<module>dockins.app.distro</module>
 	</modules>
 
 	<dependencyManagement>
@@ -21,4 +22,22 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+
+	<build>
+		<pluginManagement>
+			<plugins>
+				<plugin>
+					<artifactId>maven-assembly-plugin</artifactId>
+					<version>2.5.5</version>
+					<configuration>
+						<descriptors>
+							<descriptor>src/assembly/apps.xml</descriptor>
+						</descriptors>
+					</configuration>
+				</plugin>
+			</plugins>
+		</pluginManagement>
+	</build>
+
+
 </project>
